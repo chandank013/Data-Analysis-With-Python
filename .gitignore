@@ -1,0 +1,42 @@
+# Ignore conda environment folder
+venu/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtualenv or other envs
+env/
+venv/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Data files (if you don't want to track datasets)
+data/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore pip cache and package downloads
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Ignore Python virtual environment metadata
+pyvenv.cfg
+
+# Ignore environment spec files (if generated temporarily)
+environment.yml
+conda-packages.txt
